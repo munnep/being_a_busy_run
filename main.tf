@@ -1,6 +1,6 @@
 data "external" "slow_delay" {
   program = ["bash", "-c", <<EOT
-    sleep 59
+    sleep 58
     echo '{ "result": "done" }'
 EOT
   ]
